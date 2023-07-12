@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;&display=swap');
+
+:root{
+    --font-family:'Sen', sans-serif;
+    --bg-color: #3dabd3;
+    --primary-color:#25dc8d;
+    --secundary-color:#e7e310;
+    --tertiary-color:#8c0acd;
+}
+body{
+    background-color: var(--bg-color);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+.fa-solid{
+    font-size: 2rem;
+}
+h1{
+    font-size: 5rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 5rem;
+    font-weight: 700;
+    z-index: 222;
+}
+h3{
+    font-size: 3rem;
+    margin-top: 1.3rem;
+}
+.mensagem{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+.box{
+    border: 3px solid var(--primary-color);
+    display:inline-block;
+    padding: 0.5rem;
+    margin: 1rem;
+    font-size: 5rem;
+}
+
+.btn-jogar{
+    font-size: 2rem;
+    padding: 1rem;
+    border: 0;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.btn-jogar:hover{
+    background-color: var(--secundary-color);
+}
